@@ -1,70 +1,181 @@
-# Getting Started with Create React App
+# React/Redux Project
+<br>
+<div align='center'>
+	<h1>Anime/Details</h1>
+  </div>
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 📗 Table of Contents
+- [React/Redux Project](#reactredux-project)
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 Anime/Details! ](#-animedetails-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [🚀 You can check the Live Demo here](#-you-can-check-the-live-demo-here)
+  - [💻 Getting Started ](#-getting-started-)
+  - [💻 Getting Started ](#-getting-started--1)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Usage](#usage)
+    - [Deployment](#deployment)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
-## Available Scripts
 
-In the project directory, you can run:
+# 📖 Anime/Details! <a name="about-project"></a>
 
-### `npm start`
+**Anime/Details** This SPA project involves building a mobile web application using React and Redux. The project focuses on creating an application that allows users to check a list of metrics obtained from a selected API. The application has a homepage with a list of items and a details page displaying specific data for each item. The project follows design guidelines and incorporates interactions for a seamless user experience.
+## 🛠 Built With <a name="built-with"></a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Tech Stack <a name="tech-stack"></a>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://www.w3schools.com/html/">HTML</></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
+    <li><a href="https://www.w3schools.com/js/default.asp">JavaScript</a></li>
+	  <li><a href="https://react.dev/learn/react-developer-tools">React</a></li>
+    <li><a href="https://redux-toolkit.js.org/">Redux</a></li>
+    <li><a href="https://docs.api.jikan.moe/">API</a></li>
+  </ul>
+</details>
 
-### `npm test`
+### Key Features <a name="key-features"></a>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Built the Desktop version 
+- Use an API to get and display Data
 
-### `npm run build`
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<!-- LIVE DEMO -->
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚀 You can check the Live Demo here<a name="live-demo"></a>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[Anime/Details Live Demo](https://benmkt-react-redux-project.onrender.com) 
 
-### `npm run eject`
+[Project Presentation/Walk-through](https://www.loom.com/share/29568f281a4c4d5ba0b97c5cf48880bb?sid=621b4da3-af5f-4ac2-b93c-40c745ba94cc)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<!-- GETTING STARTED -->
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 💻 Getting Started <a name="getting-started"></a>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Step 1: Clone this project using this git comand "git clone", (if you don't have git installed please visit
+  https://git-scm.com/downloads and install it).
+- Step 2: Once you have installed git you can clone this project using the command below:
+  ```
+  git clone https://github.com/BenMKT/React-Redux-project.git
+  ```
+- Step 3: Once you have cloned this repo navigate to the folder that contains
+  the repository.
+- Step 4: If you want to watch the html file open it with your favorite web browser (This project MUST be opened from VS Code for full functionality).
+- Step 5: If you want to edit this project open it with your favorite text editor.
 
-## Learn More
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 💻 Getting Started <a name="getting-started"></a>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To get a local copy up and running cloning this repo `https://github.com/BenMKT/React-Redux-project.git`.
 
-### Code Splitting
+### Prerequisites
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+There are no known prerequisites to run this project.
+If you encounter any issues trying to run it, please feel free to
+[open a ticket](https://github.com/BenMKT/React-Redux-project/issues) to let me know and i will work on it to the best
+of my abilities
 
-### Analyzing the Bundle Size
+### Setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Clone this repository to your desired folder:
 
-### Making a Progressive Web App
+`https://github.com/BenMKT/React-Redux-project.git`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+or
 
-### Advanced Configuration
+`git@github.com:BenMKT/React-Redux-project.git` <-- _Only if you have [SSH keys configured](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) on your GitHub account_.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Usage
+
+To run the project:
+
+- Method 1:
+
+```sh
+  cd PATH_TO_CLONE
+  npm install
+  npm run build
+  npm start
+```
+
+Method 2:
+Open './dist/index.html' in your browser of choice
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+You can deploy this project using [github pages](https://docs.github.com/en/pages/quickstart),
+[Render](https://dashboard.render.com/)
+or a web-hosting platform of your choice.
 
-### `npm run build` fails to minify
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+> 👤 **Benson Kiai**
+- GitHub: [@Benson](https://github.com/BenMKT)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- Use store, actions and reducers in React.
+- Connect React and Redux.
+- Re-factor to use RTK Query and React Bootstrap.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/BenMKT/React-Redux-project/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project please give me a start and share my portfolio to recruters!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank to [Nelson Sakwa on Behance.](https://www.behance.net/sakwadesignstudio) who's made the original design available for all feature developer.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
