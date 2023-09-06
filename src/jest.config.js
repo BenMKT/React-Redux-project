@@ -1,7 +1,7 @@
-module.exports = {
-  // ...other Jest configurations...
-
+export default {
+  preset: 'react-scripts',
+  testEnvironment: 'node',
   transform: {
-    '^.+\\.jsx?$': 'babel-jest',
+    '^.+\\.(js|jsx|ts|tsx)$': 'babel-jest',
   },
 };
