@@ -53,6 +53,20 @@
   padding: 4px;
 }
 
+.filter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2%;
+}
+
+.score {
+  height: 30px;
+  width: 200px;
+  text-align: center;
+}
+
 @media (min-width: 768px) {
   .grid-container {
     grid-template-columns: auto auto auto auto;
