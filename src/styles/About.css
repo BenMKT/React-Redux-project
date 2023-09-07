@@ -1,0 +1,11 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3%;
+}
+
+.about-container .about-paragraph {
+  margin-top: 2%;
+  width: 80%;
+}
